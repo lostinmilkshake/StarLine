@@ -9,7 +9,7 @@ protected:
     float length; // Длина стороны квадрата
 public:
     Square(float bottomLeftDotX=0, float bottomLeftDotY=0 , float length=0);
-    ~Square();
+    virtual ~Square();
     virtual void print();
 };
 
