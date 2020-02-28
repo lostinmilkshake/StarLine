@@ -1,5 +1,3 @@
-import typing
-
 class Square:
     def __init__(self, bottomLeftDotX=0, bottomLeftDotY=0, length=0):
         try:
